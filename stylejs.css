@@ -8,12 +8,12 @@ body {
 
 .hitung {
     text-align: center;
-    padding-top: 25px;
+    padding-top: 15px;
     font-family: 'Merriweather';
 }
 
-#form {
-    padding-top: 15px;
+.judul {
+    font-size: 20px;
 }
 
 .hasil {
@@ -26,7 +26,6 @@ nav h5 {
     display: inline;
     list-style-type: none;
     margin-right: 25px;
-    color: black;
     font-family: 'Raleway';
 }
 
@@ -46,4 +45,8 @@ nav h5 a {
 
 nav h5 a:hover {
     font-weight: bold;
+}
+
+button {
+    margin-top: 15px;
 }

@@ -3,7 +3,6 @@
 body {
     font-family: 'Merriweather';
     background-color: #ff8080;
-    width: 95%;
 }
 
 h3, h4 {
@@ -14,6 +13,9 @@ h3, h4 {
 img {
     width: 125px;
     float: right;
+    border-radius: 40%;
+    margin-bottom: 20px;
+    margin-right: 600px;
 }
 
 table {

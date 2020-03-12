@@ -6,7 +6,7 @@ body {
     background-image: url(pawel-czerwinski-KarT442iSUk-unsplash.jpg);
 }
 
-.jumbotron {
+.logo {
     font-size: 18px;
     padding: 50px;
     text-align: center;
@@ -40,7 +40,7 @@ nav a:hover {
     font-weight: bold;
 }
 
-.jumbotron img {
+.logo img {
     float: top;
     width: 150px;
     border-radius: 50%;

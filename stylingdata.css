@@ -1,9 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 
 body {
     font-family: 'PT Serif';
     background-image: url(pawel-czerwinski-KarT442iSUk-unsplash.jpg);
+}
+
+.satu {
+    line-height: 2;
+    padding: 20px;
+    background-image: none;
+    font-family: 'PT serif';
+    margin: 50px;
+    padding-left: 250px;
 }
 
 nav li {
@@ -32,32 +41,13 @@ nav a:hover {
     font-weight: bold;
 }
 
-table {
-    width: 500px;
-    margin-top: 25px;
-    margin-left: 0px;
-    background-image: none;
-}
-
-tr, th, td {
-    border: 1px solid #F08080;
-    text-align: center;
-}
-
-.dua ul {
-    list-style-type: none;
-    padding: 20px;
-    margin-top: 25px;
-    font-weight: bold;
-}
-
-.dua img {
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
 ul li a {
     color: white;
+}
+
+img {
+    width: 250px;
+    float: right;
+    border-radius: 50%;
+    margin-right: 200px;
 }
