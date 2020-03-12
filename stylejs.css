@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-family: 'Merriweather';
+    background-image: url(pawel-czerwinski-KarT442iSUk-unsplash.jpg);
+}
+
+.hitung {
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Merriweather';
+}
+
+#form {
+    padding-top: 15px;
+}
+
+.hasil {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Merriweather';
+}
+
+nav h5 {
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+    color: black;
+    font-family: 'Raleway';
+}
+
+nav {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #F08080;
+}
+
+nav h5 a {
+    font-size: 19px;
+    font-weight: 300;
+    color: white;
+}
+
+nav h5 a:hover {
+    font-weight: bold;
+}

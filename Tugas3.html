@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas 3</title>
+    <link rel="stylesheet" href="stylejs.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <nav>
+        <h5><a style="text-decoration: none;" href="index.html">Home</a></h5>
+    </nav>
+
+    <div class="hitung">
+    <h6 class="judul">Menghitung average, median, highest, lowest</h6>
+    <form id="form">
+
+        <p>Nilai 1 : <input type="text" id="nilai1" /></p>
+        <p>Nilai 2 : <input type="text" id="nilai2" /></p>
+        <p>Nilai 3 : <input type="text" id="nilai3" /></p>
+        <p>Nilai 4 : <input type="text" id="nilai4" /></p>
+        <p>Nilai 5 : <input type="text" id="nilai5" /></p>
+        
+        <button type="button" onclick="hitung()" class="btn btn-outline-secondary">Hitung</button>
+        <button type="button" onclick="reset()" class="btn btn-outline-secondary">Reset</button>
+
+    </form>
+    </div>
+
+    <div class="hasil">
+    <p>Nilai rata-rata : <span id="ratarata"></span></p>
+    <p>Median : <span id="tengah"></span></p>
+    <p>Nilai tertinggi : <span id="maks"></span></p>
+    <p>Nilai terendah : <span id="mini"></span></p>
+    </div>
+
+    <script src="hitung.js"></script>
+</body>
+</html>

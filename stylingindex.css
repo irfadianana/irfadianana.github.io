@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif&display=swap');
+
+body {
+    font-family: 'PT Serif';
+    background-image: url(pawel-czerwinski-KarT442iSUk-unsplash.jpg);
+}
+
+.jumbotron {
+    font-size: 18px;
+    padding: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'PT Serif';
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 25px;
+    color: black;
+    font-family: 'Raleway';
+}
+
+nav {
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    text-align: center;
+    background-color: #F08080;
+}
+
+nav a {
+    font-size: 19px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+.jumbotron img {
+    float: top;
+    width: 150px;
+    border-radius: 50%;
+}
+
+ul li a {
+    color: white;
+}

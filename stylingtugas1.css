@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
+
+body {
+    font-family: 'Merriweather';
+    background-color: #ff8080;
+    width: 95%;
+}
+
+h3, h4 {
+    padding: 5px;
+    background-color: #ff9999;
+}
+
+img {
+    width: 125px;
+    float: right;
+}
+
+table {
+    background-color: #ff9999;
+    margin: 25px;
+    border: 10px;
+}
+
+th, td {
+    padding: 5px;
+}
